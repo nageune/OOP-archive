@@ -8,10 +8,7 @@ private:
     double gpa;
 public:
     Student(string name, double gpa);
-    void print() const override {
-        cout << "이름: " << this->name << '\n';
-        cout << "GPA: " << this->gpa << '\n';
-    };
+    void print() const override;
 };
 
 #endif /* student_hpp */
